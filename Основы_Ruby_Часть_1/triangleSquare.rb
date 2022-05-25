@@ -7,6 +7,6 @@ puts "Введите высоту треугольника, м"
 height = gets.to_f
 
 # Площадь
-square = base * height/2
+square = base * height / 2
 
 puts "Площадь треугольника равна #{square.round(2)} метров квадратных."

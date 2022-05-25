@@ -4,11 +4,11 @@ name = gets.chomp.capitalize
 
 # Рост пользователя
 puts "Укажите ваш рост"
-height = gets.to_f.round()
+height = gets.to_f.round
 
 # Идеальный вес
-goal_weight = (height - 110)*1.15
+goal_weight = (height - 110) * 1.15
 
-unless goal_weight > 0 
-	puts "#{name}, ваш вес уже оптимальный"
+unless goal_weight > 0
+  puts "#{name}, ваш вес уже оптимальный"
 end
